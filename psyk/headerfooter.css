@@ -17,3 +17,20 @@ header > nav{
     visibility: hidden;
 }
 
+footer{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    height:200px;
+    align-items: center;
+
+    color:#565656;
+}
+
+footer h3{
+    font-weight: 500;
+}
+
+
+

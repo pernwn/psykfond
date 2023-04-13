@@ -1,21 +1,33 @@
-*{
+* {
     box-sizing: border-box;
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
 }
 
-body{
+body {
     background-color: #ebeae1;
-    padding-top:2%;
-    padding-left:10%;
-    padding-right:10%;
+    padding-top: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+
+    font-family: "Kanit", sans-serif;
+    /*OVERSKRIFT FARVE*/
+    color: #565656;
+
+}
+
+main {
+    height: auto;
+
+
 }
 
 #test {
     background-color: aqua;
     width: 100%;
-    height:600px;
+    height: 600px;
 
-    display:flex;
+    display: flex;
     justify-content: center;
+
 }
