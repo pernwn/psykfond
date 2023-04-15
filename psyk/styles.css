@@ -7,8 +7,6 @@
 body {
   background-color: #f6f5ed;
   padding-top: 2%;
-  padding-left: 10%;
-  padding-right: 10%;
 
   font-family: "Kanit", sans-serif;
   /*OVERSKRIFT FARVE*/
@@ -17,6 +15,7 @@ body {
 
 main {
   height: auto;
+
 }
 
 /*testing*/
@@ -36,3 +35,6 @@ section {
 .dark_back {
   background-color: #ebeae1;
 }
+
+
+
