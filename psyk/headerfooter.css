@@ -16,9 +16,13 @@ header > div {
     margin-right: 10%;
 }
 
+.logo{
+    width:15%;
+}
+
 header > nav{
     /*Har lige skjult burgermenu så vi kan fokusere på andre elementer først*/
-    visibility: hidden;
+    display:none;
 }
 
 footer{
@@ -37,8 +41,9 @@ footer{
 }
 
 footer h3{
+    font-size: 12pt;
     font-weight: 400;
-    line-height: 25px;
+    line-height: 24px;
 }
 
 
