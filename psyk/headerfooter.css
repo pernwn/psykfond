@@ -11,9 +11,13 @@ header > div {
     justify-content: space-between;
     align-items: center;
     padding-bottom: 5%;
+
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 header > nav{
+    /*Har lige skjult burgermenu så vi kan fokusere på andre elementer først*/
     visibility: hidden;
 }
 
@@ -26,10 +30,15 @@ footer{
     align-items: center;
 
     color:#565656;
+
+
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 footer h3{
-    font-weight: 500;
+    font-weight: 400;
+    line-height: 25px;
 }
 
 
