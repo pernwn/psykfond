@@ -33,33 +33,22 @@ h3 {
 p {
   font-size: 1vw;
   font-weight: 400;
+
+}
+
+.dark_back {
+  background-color: #ebeae1;
 }
 
 /*FORSØG PÅ STYLING AF 4X4 SEKTIONEN*/
 .vejrtrækningsøvelse {
   display: flex;
-  justify-content:left;
+  justify-content: left;
   padding-left: 10px;
   padding-right: 50px;
 
-  background-color: #AD6569;
+  background-color: #ad6569;
   color: white;
-}
-
-/*testing*/
-
-
-#test {
-  background-color: aqua;
-  width: 100%;
-  height: 600px;
-
-  display: flex;
-  justify-content: center;
-}
-
-.dark_back {
-  background-color: #ebeae1;
 }
 
 /*Claras hack section*/
