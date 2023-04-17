@@ -157,7 +157,7 @@ p {
 
 /* Introduktion til Clara*/
 #introClara,
-#hack_section {
+#hack_section, #trebannere {
   width: 80%;
   margin: auto;
 
@@ -191,4 +191,43 @@ margin-right: 2vw;
   transform: rotate(-10deg);
 }
 
+/*STYLING AF LOGO OVER BANNERE OM RÅDGIVNING*/
+#logooverbannere{
+  display: flex;
+  width: 50%;
+  margin-left: 350px;
+  padding-top: 100px;
+}
 
+/*STYLING AF RÆK UD I DAG*/
+#rækudidag{
+  display: flex;
+  justify-content: right;
+  margin-right: 300px;
+  padding-bottom: 100px;
+}
+
+/*STYLING AF BANNERE OMKRING RÅDGIVING*/
+#trebannere{
+  display: flex;
+  justify-content: space-between;
+}
+
+#Chatmedosbanner, #Ringtilosbanner, #Ungegrupperbanner{
+  background-color: #E72860;
+  color: white;
+
+  margin: 10px;
+  border-radius: 60px;
+  padding: 30px;
+
+  width: 25%;
+}
+
+#button{
+  background-color:white;
+  color: #565656;
+  border-radius: 20px;
+  padding: 10px;
+  border: none;
+}
