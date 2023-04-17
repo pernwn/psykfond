@@ -47,11 +47,11 @@ p {
 
 /*Pink pil*/
 .arrow {
-  fill: #e72860; /*Hvorfor ændre den ikke farven på SVG'en??*/
+  fill: #e72860; /*Hvorfor ændrer den ikke farven på SVG'en??*/
 }
 
 /*STYLING AF VEJRTRÆKNINGSØVELSE 4x4*/
-.vejrtrækningsøvelse {
+#vejrtrækningsøvelse {
   display: flex;
   height: auto;
 
@@ -59,14 +59,11 @@ p {
   padding: 20px;
 
   margin: 10%;
-  /*margin-left: 50px;
-  margin-top: 20px;
-  margin-bottom: 20px;*/
 }
 
-.vejrtrækningsøvelsetekst {
+#vejrtrækningsøvelsetekst {
   background-color: #ad6569;
-  color: white; /*Anden tekstfarve?*/
+  color: white;
 
   border-radius: 50px;
   padding: 5%;
