@@ -23,7 +23,20 @@ main {
 så kan vi godt spare plads og skrive de to i sammen*/
 section {
   height: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
+
+/*
+#hack_section h1,
+#hack_icons {
+  margin-top: 100px;
+}
+
+#hack_icons {
+  margin-bottom: 100px;
+}
+*/
 
 /*STYLING AF VEJRTRÆKNINGSØVELSE 4x4*/
 .vejrtrækningsøvelse {
@@ -88,15 +101,10 @@ p {
 }
 
 /*Claras hack section*/
-#hack_section h1,
-#hack_icons {
-  margin-top: 100px;
-}
-
 #hack_icons {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 100px;
+  margin-top: 100px;
 }
 
 #hack_icons div {
@@ -157,7 +165,8 @@ p {
 
 /* Introduktion til Clara*/
 #introClara,
-#hack_section, #trebannere {
+#hack_section,
+#trebannere {
   width: 80%;
   margin: auto;
 }
@@ -190,29 +199,31 @@ p {
 }
 
 /*STYLING AF LOGO OVER BANNERE OM RÅDGIVNING*/
-#logooverbannere{
-  display: flex;
+#logooverbannere {
+  /*left og right auto centrer logo'et*/
+  margin-left: auto;
+  margin-right: auto;
   width: 50%;
-  margin-left: 350px;
-  padding-top: 100px;
 }
 
 /*STYLING AF RÆK UD I DAG*/
-#rækudidag{
+#rækudidag {
   display: flex;
   justify-content: right;
-  margin-right: 300px;
-  padding-bottom: 100px;
+  margin-right: 25%;
+  margin-bottom: 100px;
 }
 
 /*STYLING AF BANNERE OMKRING RÅDGIVING*/
-#trebannere{
+#trebannere {
   display: flex;
   justify-content: space-between;
 }
 
-#Chatmedosbanner, #Ringtilosbanner, #Ungegrupperbanner{
-  background-color: #E72860;
+#Chatmedosbanner,
+#Ringtilosbanner,
+#Ungegrupperbanner {
+  background-color: #e72860;
   color: white;
 
   margin: 10px;
@@ -222,8 +233,8 @@ p {
   width: 25%;
 }
 
-#button{
-  background-color:white;
+#button {
+  background-color: white;
   color: #565656;
   border-radius: 20px;
   padding: 10px;
