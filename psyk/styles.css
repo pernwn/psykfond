@@ -63,10 +63,15 @@ p {
   margin-bottom: 100px;
 }
 
+#hack_icons div {
+  width: 20%;
+}
+
 /* Introduktion til Clara*/
 #introClara {
   width: 80%;
   margin: auto;
+
 }
 
 .toKolonner {
@@ -79,6 +84,22 @@ p {
   width: 50%;
 }
 
-#hack_icons div {
-  width: 20%;
+#angstAfsnit {
+  display: flex;
 }
+#angstAfsnit p {
+width: 80%;
+margin-right: 2vw;
+}
+
+
+#tegningGif {
+  padding-left: 4vw;
+  padding-right: 4vw;
+}
+
+#tegningGif img {
+  transform: rotate(-10deg);
+}
+
+
