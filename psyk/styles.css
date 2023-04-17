@@ -19,10 +19,50 @@ body {
 main {
   height: auto;
 }
+/*Hvis der ikke skal stå mere i main og section, 
+så kan vi godt spare plads og skrive de to i sammen*/
+section{
+  height:auto;
+}
+
+/*STYLING AF VEJRTRÆKNINGSØVELSE 4x4*/
+.vejrtrækningsøvelse {
+  display: flex;
+  height: auto;
+
+
+  border-radius: 20px;
+  padding: 20px;
+
+  margin:10%;
+  /*margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;*/
+}
+
+.vejrtrækningsøvelsetekst {
+  background-color: #AD6569;
+  color: white; /*Anden tekstfarve?*/
+
+  border-radius: 50px;
+  padding:5%;
+  width:50%;
+
+  margin-right:5%;
+}
+
+#clara_portraits{
+  display:flex;
+  flex-direction: row;
+  
+  position:relative;
+  top:10%;
+}
 
 h1 {
   font-size: 2.5vw;
   font-weight: 500;
+
 }
 
 h3 {
@@ -38,17 +78,6 @@ p {
 
 .dark_back {
   background-color: #ebeae1;
-}
-
-/*FORSØG PÅ STYLING AF 4X4 SEKTIONEN*/
-.vejrtrækningsøvelse {
-  display: flex;
-  justify-content: left;
-  padding-left: 10px;
-  padding-right: 50px;
-
-  background-color: #ad6569;
-  color: white;
 }
 
 /*Claras hack section*/
