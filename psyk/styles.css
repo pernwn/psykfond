@@ -33,7 +33,6 @@ h3 {
 p {
   font-size: 1vw;
   font-weight: 400;
-
 }
 
 .dark_back {
@@ -59,12 +58,69 @@ p {
 
 #hack_icons {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   margin-bottom: 100px;
 }
 
+#hack_icons div {
+  width: 25%;
+
+  /*Stopper animationer på ikoner, når de ikke berøres*/
+  animation-play-state: paused;
+}
+
+/*Animationer på ikoner er kun aktiv på hover*/
+#hack_icons div:hover {
+  animation-play-state: running;
+}
+
+/*Får fidgetspinner til at rotere*/
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/*Får høretelfoner til at hoppe*/
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-40px);
+  }
+}
+
+/*Får squishy til vrikke*/
+@keyframes wiggle {
+  50% {
+    transform: translateX(20px) rotate(10deg);
+  }
+  0%,
+  100% {
+    transform: translateX(-20px) rotate(-10deg);
+  }
+}
+
+#fidget {
+  animation: rotate 2s linear infinite;
+}
+
+#høretelefoner {
+  animation: bounce 0.5s linear infinite;
+}
+
+#squishy {
+  animation: wiggle 1s linear infinite;
+}
+
 /* Introduktion til Clara*/
-#introClara {
+#introClara,
+#hack_section {
   width: 80%;
   margin: auto;
 }
@@ -77,8 +133,4 @@ p {
 
 .toKolonner div {
   width: 50%;
-}
-
-#hack_icons div {
-  width: 20%;
 }
