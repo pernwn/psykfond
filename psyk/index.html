@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -16,28 +15,32 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet" />
+      href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
 
     <!--FAVICON-->
 
     <!--FONT AWESOME-->
-    <script src="https://kit.fontawesome.com/60cddcb918.js" crossorigin="anonymous"></script>
-</head>
+    <script
+      src="https://kit.fontawesome.com/60cddcb918.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<body>
+  <body>
     <header>
-        <div>
-            <div class="logo">
-                <img src="images/logo.svg" alt="Logo" />
-            </div>
-
-            <!--Burgermenu skal måske ændres, det er blot placeholder-->
-            <i class="fa-solid fa-bars fa-2x" style="color: #e72860"></i>
+      <div>
+        <div class="logo">
+          <img src="images/logo.svg" alt="Logo" />
         </div>
 
-        <!--DROPDOWN MENU – udkommenteret så vi kan fokusere på at få opsat resten-->
-        <!--<nav>
+        <!--Burgermenu skal måske ændres, det er blot placeholder-->
+        <i class="fa-solid fa-bars fa-2x" style="color: #e72860"></i>
+      </div>
+
+      <!--DROPDOWN MENU – udkommenteret så vi kan fokusere på at få opsat resten-->
+      <!--<nav>
             <img src="images/logo.svg" alt="Logo">
             <div>
                 <a href="#">Viden</a>
@@ -49,17 +52,19 @@
     </header>
 
     <main>
-        <!--TODO:-->
-        <div id="test"></div>
+      <!--TODO:-->
+      <div id="test"></div>
 
-        <!--intro-video-->
-        <section></section>
+      <!--intro-video-->
+      <section>
+        <video width="100%" autoplay loop>
+            <source src="video/IntroVideo.mp4" type="video/mp4">
+          </video>
+      </section>
+  
+      <!--karrusel-->
+      <section></section>
 
-        <!--karrusel-->
-        <section></section>
-
-        <!--Introduktion til Clara-->
-        <section class="dark_back"></section>
 
         <!--Introduktion til Clara-->
         <section id="IntroClara" class="dark_back">
@@ -80,49 +85,115 @@
 
                 </div>
                 <div>
-                    <div><img src="images/blob_clara1.png" alt=""></div>
+                    <div><img src="images/blob_clara_farver.png" alt=""></div>
+                </div>
+            </div>
+
+            <div class="toKolonner">
+                <div id="tegningGif">
+                    <img src="images/tegning.gif" alt="">
+                </div>
+                <div>
+                    <h3>Angsten overtager</h3>
+                    <span id="angstAfsnit">
+                        <p>Et af de angstanfald, der står tydeligt frem i Claras 
+                            erindring er en aften, hvor hun bliver inviteret med 
+                            i byen af en veninde. Allerede da hun kommer ind på 
+                            baren og befinder sig blandt de mange festglade 
+                            mennesker, bliver hun ængstelig. Hun mærker 
+                            usikkerheden vokse indeni og føler sig til sidst 
+                            så klaustrofobisk og overvældet af situationen, at
+                            hun er nødt til at tage hjem.
+                        </p>
+                        <div><img src="images/Citat1.png" alt=""></div>
+                    </span>
+                    
+                </div>
+            </div>
+
+            <div class="toKolonner">
+                <div>
+                    <h3>Ikke som alle andre</h3>
+                    <p>Da hun kommer hjem, er Clara overvældet over episoden. 
+                        Hun føler, at hun ikke er ligesom alle andre unge 
+                        mennesker – at hun ikke kan holde til det de kan. 
+                        Og hun er i dagene efter stadig påvirket af 
+                        situationen både fysisk og psykisk. 
+                        <br> <br>
+                        Clara har levet med sin angst de seneste 7-8 år, 
+                        og den fylder en stor del i hendes hverdag – Men 
+                        hvordan lever man med angst?
+                    </p>
+                    <div><img src="images/citat2.png" alt=""></div>
                 </div>
 
-            </div>
+                <div>
+                    <h1>Angstanfald</h1>
+                    <video width="400" controls>
+                        <source src="video/IntroVideo.mp4" type="video/mp4">
+                      </video>
 
         </section>
         <!--Claras hacks-->
         <section id="hack_section">
             <h1>Claras hacks</h1>
             <p>
-                Læs Claras favorit-hverdags-hacks til at aflede angsten her. <br />
-                Klik på ikonerne, og se hvad Clara siger om dem.
+              I en lejlighed lidt udenfor Aarhus møder vi Clara, der med sin
+              kærlighed til naturen har fyldt hele hjemmet med diverse grønne
+              planter. Hun elsker at være sammen med sine nære venner og på
+              mange måder virker Clara som alle andre unge mennesker i
+              start-tyverne. - Men det føler hun ikke altid selv...
             </p>
-            <div id="hack_icons">
-                <!--fidget-->
-                <div><img src="images/fidget.svg" alt="fidgetspinner" /></div>
+          </div>
+          <div>
+            <div><img src="images/blob_clara1.png" alt="" /></div>
+          </div>
+        </div>
+      </section>
+      <!--Claras hacks-->
+      <section id="hack_section">
+        <h1>Claras hacks</h1>
+        <p>
+          Læs Claras favorit-hverdags-hacks til at aflede angsten her. <br />
+          Klik på ikonerne, og se hvad Clara siger om dem.
+        </p>
+        <div id="hack_icons">
+          <!--fidget-->
+          <div><img src="images/fidget.svg" alt="fidgetspinner" /></div>
 
-                <!--høretelefoner-->
-                <div id="høretelefoner">
-                    <img src="images/høretelefoner.svg" alt="høretelefoner" />
-                </div>
+          <!--høretelefoner-->
+          <div id="høretelefoner">
+            <img src="images/høretelefoner.svg" alt="høretelefoner" />
+          </div>
 
-                <!--squishy bamse-->
-                <div><img src="images/squishy_bamse.svg" alt="squishy_bamse" /></div>
-            </div>
-        </section>
+          <!--squishy bamse-->
+          <div id="squishy">
+            <img src="images/squishy_bamse.svg" alt="squishy_bamse" />
+          </div>
+        </div>
+      </section>
 
-        <!--Apatisk-->
-        <section class="dark_back"></section>
+      <!--Apatisk-->
+      <section class="dark_back"></section>
 
-        <!--Vidste du? 4x4 øvelsen-->
-        <section class="vejrtrækningsøvelse">
-            <div class="vejrtrækningsøvelsetekst">
-                <h1>Vidste du at..</h1>
-                <p>.. hvis du trækker vejret i en bestemt rytme, så kan du "tricke" din hjerne til at slappe af og
-                    bringe ro i kroppen?</p><br>
+      <!--Vidste du? 4x4 øvelsen-->
+      <section class="vejrtrækningsøvelse">
+        <div class="vejrtrækningsøvelsetekst">
+          <h1>Vidste du at..</h1>
+          <p>
+            .. hvis du trækker vejret i en bestemt rytme, så kan du "tricke" din
+            hjerne til at slappe af og bringe ro i kroppen?
+          </p>
+          <br />
 
-                <h2>Prøv 4x4 metoden nu</h2>
-                <p>1. Træk vejret ind gennem næsen i 4 sekunder</p>
-                <p>2. Hold på vejret i 4 sekunder</p>
-                <p>3. Udånd gennem munden i 4 sekunder</p>
-                <p>Vent 4 sekunder og gentag forløbet indtil, du mærker roen sprede sig</p>
-            </div>
+          <h2>Prøv 4x4 metoden nu</h2>
+          <p>1. Træk vejret ind gennem næsen i 4 sekunder</p>
+          <p>2. Hold på vejret i 4 sekunder</p>
+          <p>3. Udånd gennem munden i 4 sekunder</p>
+          <p>
+            Vent 4 sekunder og gentag forløbet indtil, du mærker roen sprede sig
+          </p>
+        </div>
 
             <div id="clara_portraits">
                 <div id="Clarafarvevejrtrækningsøvelse1">
@@ -134,12 +205,23 @@
                 </div>
             </div>
 
-        </section>
+          <div class="Clarafarvevejrtrækningsøvelse2">
+            <img
+              src="images/Clarafarvevejrtrækningsøvelse2.png"
+              alt="Clarafarveøvelse2"
+            />
+          </div>
+        </div>
+      </section>
 
+          <!--høretelefoner-->
+          <div><img src="images/høretelefoner.svg" alt="høretelefoner" /></div>
 
+      <!--Podcast-->
+      <section></section>
 
-        <!--Pårørende-->
-        <section class="dark_back"></section>
+      <!--"Kender du det"/skrive-opgave slider-->
+      <section class="dark_back"></section>
 
         <!--Podcast-->
         <section></section>
@@ -165,29 +247,28 @@
     </main>
 
     <footer>
-        <div>
-            <h3>Psykiatrifonden</h3>
-            <h3>Hejrevej 43</h3>
-            <h3>2400 København V</h3>
-        </div>
+      <div>
+        <h3>Psykiatrifonden</h3>
+        <h3>Hejrevej 43</h3>
+        <h3>2400 København V</h3>
+      </div>
 
-        <div>
-            <h3>Tlf: 39 25 25 25</h3>
-            <h3>pf@psykiatrifonden.dk</h3>
-            <h3>CVR 1917 4883</h3>
-        </div>
+      <div>
+        <h3>Tlf: 39 25 25 25</h3>
+        <h3>pf@psykiatrifonden.dk</h3>
+        <h3>CVR 1917 4883</h3>
+      </div>
 
-        <div>
-            <!--SoMe-->
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
-        </div>
+      <div>
+        <!--SoMe-->
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""></a>
+      </div>
 
-        <div class="logo">
-            <img src="images/logo.svg" alt="Logo" />
-        </div>
+      <div class="logo">
+        <img src="images/logo.svg" alt="Logo" />
+      </div>
     </footer>
-</body>
-
+  </body>
 </html>
