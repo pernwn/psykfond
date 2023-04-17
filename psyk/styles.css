@@ -26,17 +26,29 @@ section {
   padding-top: 100px;
   padding-bottom: 100px;
 }
-
-/*
-#hack_section h1,
-#hack_icons {
-  margin-top: 100px;
+h1 {
+  font-size: 2.5vw;
+  font-weight: 500;
 }
 
-#hack_icons {
-  margin-bottom: 100px;
+h3 {
+  font-size: 1.1vw;
+  font-weight: 500;
 }
-*/
+
+p {
+  font-size: 1vw;
+  font-weight: 400;
+}
+
+.dark_back {
+  background-color: #ebeae1;
+}
+
+/*Pink pil*/
+.arrow {
+  fill: #e72860; /*Hvorfor ændre den ikke farven på SVG'en??*/
+}
 
 /*STYLING AF VEJRTRÆKNINGSØVELSE 4x4*/
 .vejrtrækningsøvelse {
@@ -79,25 +91,6 @@ section {
 #Clarafarvevejrtrækningsøvelse2 {
   position: relative;
   top: 5%;
-}
-
-h1 {
-  font-size: 2.5vw;
-  font-weight: 500;
-}
-
-h3 {
-  font-size: 1.1vw;
-  font-weight: 500;
-}
-
-p {
-  font-size: 1vw;
-  font-weight: 400;
-}
-
-.dark_back {
-  background-color: #ebeae1;
 }
 
 /*Claras hack section*/
@@ -245,10 +238,17 @@ p {
   width: 25%;
 }
 
-#button {
+.button {
   background-color: white;
   color: #565656;
+  border: none;
   border-radius: 20px;
   padding: 10px;
-  border: none;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.button .arrow {
+  width: 5%;
 }
