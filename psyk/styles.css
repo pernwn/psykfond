@@ -11,7 +11,6 @@ img {
 body {
   background-color: #f6f5ed;
   padding-top: 3%;
-
   font-family: "Kanit", sans-serif;
   /*OVERSKRIFT FARVE*/
   color: #565656;
@@ -22,10 +21,25 @@ main {
 
 }
 
-/*testing*/
-section {
-  height: 100px;
+h1 {
+  font-size: 2.5vw;
+  font-weight: 500;
 }
+
+h3 {
+  font-size: 1.1vw;
+  font-weight: 500;
+}
+
+p {
+  font-size: 1vw;
+  font-weight: 400;
+}
+
+
+
+/*testing*/
+
 
 #test {
   background-color: aqua;
@@ -41,4 +55,20 @@ section {
 }
 
 
+
+/* Introduktion til Clara*/
+#introClara {
+  width: 80%;
+  margin: auto;
+}
+
+.toKolonner {
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+
+.toKolonner div {
+  width: 50%;
+}
 
