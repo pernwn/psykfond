@@ -156,6 +156,13 @@ p {
   animation: wiggle 1s linear infinite;
 }
 
+/*Introvideo til Webdok*/
+/*Fjern margin-top + -bottom, som er sat på alle sections*/
+#intro_section {
+  margin-top: -100px;
+  margin-bottom: -100px;
+}
+
 /* Introduktion til Clara*/
 #introClara,
 #hack_section,
