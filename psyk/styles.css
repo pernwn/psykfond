@@ -22,6 +22,15 @@ main {
 
 }
 
+/*FORSØG PÅ STYLING AF 4X4 SEKTIONEN*/
+.vejrtrækningsøvelse {
+  display: flex;
+  justify-content: left;
+  
+  background-color: #AD6569;
+  color: white;
+}
+
 /*testing*/
 section {
   height: 100px;
