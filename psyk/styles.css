@@ -19,6 +19,7 @@ body {
 main {
   height: auto;
 }
+
 /*Hvis der ikke skal stå mere i main og section, 
 så kan vi godt spare plads og skrive de to i sammen*/
 section {
@@ -26,6 +27,7 @@ section {
   padding-top: 100px;
   padding-bottom: 100px;
 }
+
 h1 {
   font-size: 2.5vw;
   font-weight: 500;
@@ -47,7 +49,8 @@ p {
 
 /*Pink pil*/
 .arrow {
-  fill: #e72860; /*Hvorfor ændrer den ikke farven på SVG'en??*/
+  background: #e72860;
+  /*Hvorfor ændrer den ikke farven på SVG'en??*/
 }
 
 /*STYLING AF VEJRTRÆKNINGSØVELSE 4x4*/
@@ -114,6 +117,7 @@ p {
   0% {
     transform: rotate(0);
   }
+
   100% {
     transform: rotate(360deg);
   }
@@ -121,10 +125,12 @@ p {
 
 /*Får høretelfoner til at hoppe*/
 @keyframes bounce {
+
   0%,
   100% {
     transform: translateY(0);
   }
+
   50% {
     transform: translateY(-40px);
   }
@@ -135,6 +141,7 @@ p {
   50% {
     transform: translateX(20px) rotate(10deg);
   }
+
   0%,
   100% {
     transform: translateX(-20px) rotate(-10deg);
@@ -181,6 +188,7 @@ p {
 #angstAfsnit {
   display: flex;
 }
+
 #angstAfsnit p {
   width: 80%;
   margin-right: 2vw;

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,6 +10,7 @@
     <!--STYLES-->
     <link rel="stylesheet" href="headerfooter.css" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="carousel.css">
 
     <!--SCRIPT-->
     <script src="script.js" defer></script>
@@ -17,32 +19,28 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
+        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
 
     <!--FAVICON-->
 
     <!--FONT AWESOME-->
-    <script
-      src="https://kit.fontawesome.com/60cddcb918.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
+    <script src="https://kit.fontawesome.com/60cddcb918.js" crossorigin="anonymous"></script>
+</head>
 
-  <body>
+<body>
     <header>
-      <div>
-        <div class="logo">
-          <img src="images/logo.svg" alt="Logo" />
+        <div>
+            <div class="logo">
+                <img src="images/logo.svg" alt="Logo" />
+            </div>
+
+            <!--Burgermenu skal måske ændres, det er blot placeholder-->
+            <i class="fa-solid fa-bars fa-2x" style="color: #e72860"></i>
         </div>
 
-        <!--Burgermenu skal måske ændres, det er blot placeholder-->
-        <i class="fa-solid fa-bars fa-2x" style="color: #e72860"></i>
-      </div>
-
-      <!--DROPDOWN MENU – udkommenteret så vi kan fokusere på at få opsat resten-->
-      <!--<nav>
+        <!--DROPDOWN MENU – udkommenteret så vi kan fokusere på at få opsat resten-->
+        <!--<nav>
             <img src="images/logo.svg" alt="Logo">
             <div>
                 <a href="#">Viden</a>
@@ -54,15 +52,38 @@
     </header>
 
     <main>
-      <!--intro-video-->
-      <section id="intro_section"> 
-        <video width="100%" autoplay loop controls> <!--Virker af en eller anden grund ikke uden controls? -->
-            <source src="video/IntroVideo.mp4" type="video/mp4">
-          </video>
-      </section>
-  
-      <!--karrusel-->
-      <section></section>
+        <!--intro-video-->
+        <section id="intro_section">
+            <video width="100%" autoplay loop controls> <!--Virker af en eller anden grund ikke uden controls? -->
+                <source src="video/IntroVideo.mp4" type="video/mp4">
+            </video>
+        </section>
+
+        <!--karrusel-->
+        <section id="carousel">
+            <h1>Vores historier...</h1>
+
+            <!--Hver img sat i div for at kode dem individuelt uden at ændre width på selve billedet-->
+            <div>
+                <div><img src="images/blob_clara_farver.png" alt="Clara"></div>
+                
+                <img src="images/blob1.png" alt="Mand 1">
+                <img src="images/blob6.png" alt="Kvinde 1">
+                <img src="images/blob4.png" alt="Mand 2">
+            </div>
+
+
+
+            <!--
+        <div>
+            <img src="images/blob6.png" alt="Kvinde 1">
+        </div>
+
+        <div>
+            <img src="images/blob4.png" alt="Mand 2">
+        </div>-->
+
+        </section>
 
 
         <!--Introduktion til Clara-->
@@ -95,32 +116,32 @@
                 <div>
                     <h3>Angsten overtager</h3>
                     <span id="angstAfsnit">
-                        <p>Et af de angstanfald, der står tydeligt frem i Claras 
-                            erindring er en aften, hvor hun bliver inviteret med 
-                            i byen af en veninde. Allerede da hun kommer ind på 
-                            baren og befinder sig blandt de mange festglade 
-                            mennesker, bliver hun ængstelig. Hun mærker 
-                            usikkerheden vokse indeni og føler sig til sidst 
+                        <p>Et af de angstanfald, der står tydeligt frem i Claras
+                            erindring er en aften, hvor hun bliver inviteret med
+                            i byen af en veninde. Allerede da hun kommer ind på
+                            baren og befinder sig blandt de mange festglade
+                            mennesker, bliver hun ængstelig. Hun mærker
+                            usikkerheden vokse indeni og føler sig til sidst
                             så klaustrofobisk og overvældet af situationen, at
                             hun er nødt til at tage hjem.
                         </p>
                         <div><img src="images/Citat1.png" alt=""></div>
                     </span>
-                    
+
                 </div>
             </div>
 
             <div class="toKolonner">
                 <div>
                     <h3>Ikke som alle andre</h3>
-                    <p>Da hun kommer hjem, er Clara overvældet over episoden. 
-                        Hun føler, at hun ikke er ligesom alle andre unge 
-                        mennesker – at hun ikke kan holde til det de kan. 
-                        Og hun er i dagene efter stadig påvirket af 
-                        situationen både fysisk og psykisk. 
+                    <p>Da hun kommer hjem, er Clara overvældet over episoden.
+                        Hun føler, at hun ikke er ligesom alle andre unge
+                        mennesker – at hun ikke kan holde til det de kan.
+                        Og hun er i dagene efter stadig påvirket af
+                        situationen både fysisk og psykisk.
                         <br> <br>
-                        Clara har levet med sin angst de seneste 7-8 år, 
-                        og den fylder en stor del i hendes hverdag – Men 
+                        Clara har levet med sin angst de seneste 7-8 år,
+                        og den fylder en stor del i hendes hverdag – Men
                         hvordan lever man med angst?
                     </p>
                     <div><img src="images/citat2.png" alt=""></div>
@@ -130,73 +151,73 @@
                     <h1>Angstanfald</h1>
                     <video width="400" controls>
                         <source src="video/IntroVideo.mp4" type="video/mp4">
-                      </video>
+                    </video>
 
         </section>
 
-      <!--Claras hacks-->
-      <section id="hack_section">
-        <h1>Claras hacks</h1>
-        <p>
-          Læs Claras favorit-hverdags-hacks til at aflede angsten her. <br />
-          Klik på ikonerne, og se hvad Clara siger om dem.
-        </p>
-        <div id="hack_icons">
-          <!--fidget-->
-          <div id="fidget"><img src="images/fidget.svg" alt="fidgetspinner" /></div>
+        <!--Claras hacks-->
+        <section id="hack_section">
+            <h1>Claras hacks</h1>
+            <p>
+                Læs Claras favorit-hverdags-hacks til at aflede angsten her. <br />
+                Klik på ikonerne, og se hvad Clara siger om dem.
+            </p>
+            <div id="hack_icons">
+                <!--fidget-->
+                <div id="fidget"><img src="images/fidget.svg" alt="fidgetspinner" /></div>
 
-          <!--høretelefoner-->
-          <div id="høretelefoner">
-            <img src="images/høretelefoner.svg" alt="høretelefoner" />
-          </div>
+                <!--høretelefoner-->
+                <div id="høretelefoner">
+                    <img src="images/høretelefoner.svg" alt="høretelefoner" />
+                </div>
 
-          <!--squishy bamse-->
-          <div id="squishy">
-            <img src="images/squishy_bamse.svg" alt="squishy_bamse" />
-          </div>
-        </div>
-      </section>
+                <!--squishy bamse-->
+                <div id="squishy">
+                    <img src="images/squishy_bamse.svg" alt="squishy_bamse" />
+                </div>
+            </div>
+        </section>
 
-      <!--Apatisk-->
-      <section class="dark_back"></section>
+        <!--Apatisk-->
+        <section class="dark_back"></section>
 
-      <!--Vidste du? 4x4 øvelsen-->
-      <section id="vejrtrækningsøvelse">
-        <div id="vejrtrækningsøvelsetekst">
-          <h1>Vidste du at..</h1>
-          <p>
-            .. hvis du trækker vejret i en bestemt rytme, så kan du "tricke" din
-            hjerne til at slappe af og bringe ro i kroppen?
-          </p>
-          <br />
+        <!--Vidste du? 4x4 øvelsen-->
+        <section id="vejrtrækningsøvelse">
+            <div id="vejrtrækningsøvelsetekst">
+                <h1>Vidste du at..</h1>
+                <p>
+                    .. hvis du trækker vejret i en bestemt rytme, så kan du "tricke" din
+                    hjerne til at slappe af og bringe ro i kroppen?
+                </p>
+                <br />
 
-          <h2>Prøv 4x4 metoden nu</h2>
-          <p>1. Træk vejret ind gennem næsen i 4 sekunder</p>
-          <p>2. Hold på vejret i 4 sekunder</p>
-          <p>3. Udånd gennem munden i 4 sekunder</p>
-          <p>
-            Vent 4 sekunder og gentag forløbet indtil, du mærker roen sprede sig
-          </p>
-        </div>
+                <h2>Prøv 4x4 metoden nu</h2>
+                <p>1. Træk vejret ind gennem næsen i 4 sekunder</p>
+                <p>2. Hold på vejret i 4 sekunder</p>
+                <p>3. Udånd gennem munden i 4 sekunder</p>
+                <p>
+                    Vent 4 sekunder og gentag forløbet indtil, du mærker roen sprede sig
+                </p>
+            </div>
 
             <div id="clara_portraits">
                 <div id="Clarafarvevejrtrækningsøvelse1">
                     <img src="images/Clarafarvevejrtrækningsøvelse1.png" alt="Clarafarveøvelse1">
                 </div>
-    
+
                 <div id="Clarafarvevejrtrækningsøvelse2">
                     <img src="images/Clarafarvevejrtrækningsøvelse2.png" alt="Clarafarveøvelse2">
                 </div>
-            </div>    
-        </div>
-        </div>
-      </section>
+            </div>
+            </div>
+            </div>
+        </section>
 
-      <!--Podcast-->
-      <section></section>
+        <!--Podcast-->
+        <section></section>
 
-      <!--"Kender du det"/skrive-opgave slider-->
-      <section class="dark_back"></section>
+        <!--"Kender du det"/skrive-opgave slider-->
+        <section class="dark_back"></section>
 
         <!--Podcast-->
         <section></section>
@@ -204,91 +225,105 @@
         <!--"Kender du det"/skrive-opgave slider-->
         <section class="dark_back" id="kender_du_det">
 
-          <!--Tekst_slide-->
-          <div>
-            <h1>Kender du det..</h1>
-            <p>..når tankerne nærmest slås med hinanden for at få din opmærksomhed? Og de nærmest råber ind og <br>
-              ud imellem hinanden, så de ikke er til at finde, hverken hoved eller hale i? <br>
-              Måske tankerne føles så overvældende, at du forsøger at aflede dem med lidt let underholdning? <br>
-              Eller du sidder helt stille med kruseduller i øjnene og i hovedet imens tankerne råber om kap? <br>
-              <br>
-              Et klassisk værktøj til at få styr på tankerne og ro i hovedet er at skrive dem ned. <br>
-              <br>
-              Du får her muligheden for at lade tankerne løbe frit over tastaturet (måske til lidt stemningsmusik). <br>
-              Skriv hvad end der falder dig ind i tekstfeltet på næste slide og affyr tankerne ud i nattehimlen, når <br>
-              du føler for det. <br>
-              <br>
-              Vi hverken sporer eller gemmer, hvad du fortæller, så hold ikke tilbage eller tænk over, hvordan det lyder eller staves.</p>
-          </div>
+            <!--Tekst_slide-->
+            <div>
+                <h1>Kender du det..</h1>
+                <p>..når tankerne nærmest slås med hinanden for at få din opmærksomhed? Og de nærmest råber ind og <br>
+                    ud imellem hinanden, så de ikke er til at finde, hverken hoved eller hale i? <br>
+                    Måske tankerne føles så overvældende, at du forsøger at aflede dem med lidt let underholdning? <br>
+                    Eller du sidder helt stille med kruseduller i øjnene og i hovedet imens tankerne råber om kap? <br>
+                    <br>
+                    Et klassisk værktøj til at få styr på tankerne og ro i hovedet er at skrive dem ned. <br>
+                    <br>
+                    Du får her muligheden for at lade tankerne løbe frit over tastaturet (måske til lidt
+                    stemningsmusik). <br>
+                    Skriv hvad end der falder dig ind i tekstfeltet på næste slide og affyr tankerne ud i nattehimlen,
+                    når <br>
+                    du føler for det. <br>
+                    <br>
+                    Vi hverken sporer eller gemmer, hvad du fortæller, så hold ikke tilbage eller tænk over, hvordan det
+                    lyder eller staves.
+                </p>
+            </div>
 
-          <!--SkriveævelseModTankemylder_slide-->
-          <div>
-            <img src="images/natur_nat.svg" alt="Illustration af naturlandskab om natten">
-          </div>
+            <!--SkriveævelseModTankemylder_slide-->
+            <div>
+                <img src="images/natur_nat.svg" alt="Illustration af naturlandskab om natten">
+            </div>
 
-          <!--Indsæt slide-cirkel-knapper her der aktivere transistion til skriveøvelse-->
+            <!--Indsæt slide-cirkel-knapper her der aktivere transistion til skriveøvelse-->
         </section>
 
         <!--Psykiatrifonden - ræk ud i dag-->
         <!--Logo-->
-                <section>
-                    <div id="logooverbannere">
-                    <img src="images/logo.svg" alt="logo">
-                    </div>
+        <section>
+            <div id="logooverbannere">
+                <img src="images/logo.svg" alt="logo">
+            </div>
 
-                    <div id="rækudidag">
-                        <h1>Ræk ud i dag</h1>
-                    </div>
-                
-                
-        <!--h1: ræk ud i dag-->
-        <div id="trebannere">
-            <!--3x kort med CTA-->
+            <div id="rækudidag">
+                <h1>Ræk ud i dag</h1>
+            </div>
+
+
+            <!--h1: ræk ud i dag-->
+            <div id="trebannere">
+                <!--3x kort med CTA-->
                 <!--Chat med os-->
                 <div id="Chatmedosbanner">
-                <h2>Chat med os</h2>
-                <p>En chat kan bestå af et enkelt spørgsmål eller være en længere samtale, alt efter behov. Samtalen kan vare op til en time. Du bestemmer indholdet af chatsamtalen.</p>
-                <button class="button"><h3>Chatrådgivning</h3> <img class="arrow" src="images/right.svg" alt="pil"></button>
+                    <h2>Chat med os</h2>
+                    <p>En chat kan bestå af et enkelt spørgsmål eller være en længere samtale, alt efter behov. Samtalen
+                        kan vare op til en time. Du bestemmer indholdet af chatsamtalen.</p>
+                    <button class="button">
+                        <h3>Chatrådgivning</h3> <img class="arrow" src="images/right.svg" alt="pil">
+                    </button>
                 </div>
                 <!--Ring til os-->
                 <div id="Ringtilosbanner">
-                <h2>Ring til os</h2>
-                <p>I telefonrådgivningen kan du få hjælp til at håndtere det, der er svært. Gratis og anonymt. Vores kompetente rådgivere sidder klar ved telefonerne hver dag året rundt.</p>
-                <button class="button"> <h3>Telefonrådgivning</h3> <img class="arrow" src="images/right.svg" alt="pil"></button>
+                    <h2>Ring til os</h2>
+                    <p>I telefonrådgivningen kan du få hjælp til at håndtere det, der er svært. Gratis og anonymt. Vores
+                        kompetente rådgivere sidder klar ved telefonerne hver dag året rundt.</p>
+                    <button class="button">
+                        <h3>Telefonrådgivning</h3> <img class="arrow" src="images/right.svg" alt="pil">
+                    </button>
                 </div>
                 <!--Ungegrupper-->
                 <div id="Ungegrupperbanner">
-                <h2>Ungegrupper</h2>
-                <p>Har du eller kender du nogen, der har en forælder med en psykisk sygdom? Psykiatrifonden tilbyder gratis ungegrupper - både online og med fysisk fremmøde. </p>
-                <button class="button"> <h3>Ungegrupper</h3> <img class="arrow" src="images/right.svg" alt="pil"></button>
+                    <h2>Ungegrupper</h2>
+                    <p>Har du eller kender du nogen, der har en forælder med en psykisk sygdom? Psykiatrifonden tilbyder
+                        gratis ungegrupper - både online og med fysisk fremmøde. </p>
+                    <button class="button">
+                        <h3>Ungegrupper</h3> <img class="arrow" src="images/right.svg" alt="pil">
+                    </button>
                 </div>
-              </div>
-            </section>
+            </div>
+        </section>
     </main>
 
     <footer>
-      <div>
-        <h3>Psykiatrifonden</h3>
-        <h3>Hejrevej 43</h3>
-        <h3>2400 København V</h3>
-      </div>
+        <div>
+            <h3>Psykiatrifonden</h3>
+            <h3>Hejrevej 43</h3>
+            <h3>2400 København V</h3>
+        </div>
 
-      <div>
-        <h3>Tlf: 39 25 25 25</h3>
-        <h3>pf@psykiatrifonden.dk</h3>
-        <h3>CVR 1917 4883</h3>
-      </div>
+        <div>
+            <h3>Tlf: 39 25 25 25</h3>
+            <h3>pf@psykiatrifonden.dk</h3>
+            <h3>CVR 1917 4883</h3>
+        </div>
 
-      <div>
-        <!--SoMe-->
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
-      </div>
+        <div>
+            <!--SoMe-->
+            <a href=""></a>
+            <a href=""></a>
+            <a href=""></a>
+        </div>
 
-      <div class="logo">
-        <img src="images/logo.svg" alt="Logo" />
-      </div>
+        <div class="logo">
+            <img src="images/logo.svg" alt="Logo" />
+        </div>
     </footer>
-  </body>
+</body>
+
 </html>
