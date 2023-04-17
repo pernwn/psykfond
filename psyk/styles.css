@@ -58,12 +58,12 @@ section {
   top: 10%;
 }
 
-#Clarafarvevejrtrækningsøvelse1{
+#Clarafarvevejrtrækningsøvelse1 {
   position: relative;
   top: 60%;
 }
 
-#Clarafarvevejrtrækningsøvelse2{
+#Clarafarvevejrtrækningsøvelse2 {
   position: relative;
   top: 5%;
 }
@@ -160,7 +160,6 @@ p {
 #hack_section, #trebannere {
   width: 80%;
   margin: auto;
-
 }
 
 .toKolonner {
@@ -177,10 +176,9 @@ p {
   display: flex;
 }
 #angstAfsnit p {
-width: 80%;
-margin-right: 2vw;
+  width: 80%;
+  margin-right: 2vw;
 }
-
 
 #tegningGif {
   padding-left: 4vw;
