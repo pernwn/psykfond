@@ -21,8 +21,8 @@ main {
 }
 /*Hvis der ikke skal stå mere i main og section, 
 så kan vi godt spare plads og skrive de to i sammen*/
-section{
-  height:auto;
+section {
+  height: auto;
 }
 
 /*STYLING AF VEJRTRÆKNINGSØVELSE 4x4*/
@@ -30,39 +30,47 @@ section{
   display: flex;
   height: auto;
 
-
   border-radius: 20px;
   padding: 20px;
 
-  margin:10%;
+  margin: 10%;
   /*margin-left: 50px;
   margin-top: 20px;
   margin-bottom: 20px;*/
 }
 
 .vejrtrækningsøvelsetekst {
-  background-color: #AD6569;
+  background-color: #ad6569;
   color: white; /*Anden tekstfarve?*/
 
   border-radius: 50px;
-  padding:5%;
-  width:50%;
+  padding: 5%;
+  width: 50%;
 
-  margin-right:5%;
+  margin-right: 5%;
 }
 
-#clara_portraits{
-  display:flex;
+#clara_portraits {
+  display: flex;
   flex-direction: row;
-  
-  position:relative;
-  top:10%;
+
+  position: relative;
+  top: 10%;
+}
+
+#Clarafarvevejrtrækningsøvelse1{
+  position: relative;
+  top: 60%;
+}
+
+#Clarafarvevejrtrækningsøvelse2{
+  position: relative;
+  top: 5%;
 }
 
 h1 {
   font-size: 2.5vw;
   font-weight: 500;
-
 }
 
 h3 {
@@ -73,7 +81,6 @@ h3 {
 p {
   font-size: 1vw;
   font-weight: 400;
-
 }
 
 .dark_back {
@@ -88,16 +95,69 @@ p {
 
 #hack_icons {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   margin-bottom: 100px;
 }
 
 #hack_icons div {
-  width: 20%;
+  width: 25%;
+
+  /*Stopper animationer på ikoner, når de ikke berøres*/
+  animation-play-state: paused;
+}
+
+/*Animationer på ikoner er kun aktiv på hover*/
+#hack_icons div:hover {
+  animation-play-state: running;
+}
+
+/*Får fidgetspinner til at rotere*/
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/*Får høretelfoner til at hoppe*/
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-40px);
+  }
+}
+
+/*Får squishy til vrikke*/
+@keyframes wiggle {
+  50% {
+    transform: translateX(20px) rotate(10deg);
+  }
+  0%,
+  100% {
+    transform: translateX(-20px) rotate(-10deg);
+  }
+}
+
+#fidget {
+  animation: rotate 2s linear infinite;
+}
+
+#høretelefoner {
+  animation: bounce 0.5s linear infinite;
+}
+
+#squishy {
+  animation: wiggle 1s linear infinite;
 }
 
 /* Introduktion til Clara*/
-#introClara {
+#introClara,
+#hack_section {
   width: 80%;
   margin: auto;
 
