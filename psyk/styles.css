@@ -198,6 +198,18 @@ p {
   transform: rotate(-10deg);
 }
 
+/*Kender du det/skriveøvelse - slider*/
+#kender_du_det div {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#kender_du_det h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
 /*STYLING AF LOGO OVER BANNERE OM RÅDGIVNING*/
 #logooverbannere {
   /*left og right auto centrer logo'et*/
