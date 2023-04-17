@@ -19,14 +19,9 @@ body {
 
 main {
   height: auto;
-
 }
 
 /*testing*/
-section {
-  height: 100px;
-}
-
 #test {
   background-color: aqua;
   width: 100%;
@@ -40,5 +35,18 @@ section {
   background-color: #ebeae1;
 }
 
+/*Claras hack section*/
+#hack_section h1,
+#hack_icons {
+  margin-top: 100px;
+}
 
+#hack_icons {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 100px;
+}
 
+#hack_icons div {
+  width: 20%;
+}
