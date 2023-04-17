@@ -182,8 +182,20 @@ p {
   margin: auto;
 }
 
+.toKolonner p {
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  width: 90%;
+}
+
 .toKolonner div {
   width: 50%;
+}
+#introBilledeClara {
+  width: 120%;
+  margin-left: 7vw;
+  position: relative;
+  top: -3vw;
 }
 
 #angstAfsnit {
@@ -191,17 +203,25 @@ p {
 }
 
 #angstAfsnit p {
-  width: 80%;
+  width: 110%;
   margin-right: 2vw;
 }
 
 #tegningGif {
   padding-left: 4vw;
   padding-right: 4vw;
+  position: relative;
+  top: -5vw;
 }
 
 #tegningGif img {
   transform: rotate(-10deg);
+}
+
+#citat2 {
+  margin-left: 15vw;
+  margin-top: 3vw;
+  width: 80%;
 }
 
 /*Kender du det/skriveøvelse - slider*/
