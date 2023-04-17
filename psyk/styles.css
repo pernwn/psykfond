@@ -20,7 +20,7 @@ main {
   height: auto;
 }
 
-/*FORSØG PÅ STYLING AF 4X4 SEKTIONEN*/
+/*STYLING AF VEJRTRÆKNINGSØVELSE 4x4*/
 .vejrtrækningsøvelse{
   display: flex;
   height: auto;
@@ -39,11 +39,10 @@ main {
 
   border-radius: 20px;
   padding: 20px;}
-=======
+
 h1 {
   font-size: 2.5vw;
   font-weight: 500;
->>>>>>> a21e940428df629ca6c37d6ff5f678047cf5e064
 }
 
 h3 {
