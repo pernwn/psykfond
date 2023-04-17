@@ -36,7 +36,16 @@ p {
   font-weight: 400;
 }
 
+/*FORSØG PÅ STYLING AF 4X4 SEKTIONEN*/
+.vejrtrækningsøvelse {
+  display: flex;
+  justify-content:left;
+  padding-left: 10px;
+  padding-right: 50px;
 
+  background-color: #AD6569;
+  color: white;
+}
 
 /*testing*/
 
