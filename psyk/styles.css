@@ -48,6 +48,13 @@ p {
   background-color: #ebeae1;
 }
 
+#pinkStreg {
+  position: absolute;
+  top: 4.3vw;
+  left: 4.7vw;
+  width: 100%;
+}
+
 /*Pink pil*/
 .arrow {
   background: #e72860;
