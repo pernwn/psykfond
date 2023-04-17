@@ -23,14 +23,24 @@ main {
 }
 
 /*FORSØG PÅ STYLING AF 4X4 SEKTIONEN*/
-.vejrtrækningsøvelse {
+.vejrtrækningsøvelse{
   display: flex;
-  justify-content:left;
-  padding-left: 10px;
-  padding-right: 50px;
+  height: auto;
 
+  border-radius: 20px;
+  padding: 20px;
+
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.vejrtrækningsøvelsetekst{
   background-color: #AD6569;
   color: white;
+
+  border-radius: 20px;
+  padding: 20px;
 }
 
 /*testing*/
