@@ -11,4 +11,13 @@
     margin:5%;
 }
 
+#carousel div img{
+    transform:scale(1);
+    transition: 0.5s ease-in-out;
+}
+
+#carousel div img:hover{
+    transform:scale(2);
+}
+
 
