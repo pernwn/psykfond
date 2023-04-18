@@ -304,3 +304,28 @@ p {
 .button .arrow {
   width: 5%;
 }
+
+/*Apatisk*/
+.apatiskcitat{
+  width: 12%;
+  display: flex;
+  margin-left: 30%;
+  margin-top: -7%;
+}
+
+.apatisk{
+display: flex;
+margin-left: 10%;
+margin-right: 10%;
+justify-content: center;
+
+}
+
+.apatisktekst p{
+  width: 70%;
+}
+
+.apatisk iframe{
+  border-radius: 20px;
+}
+
