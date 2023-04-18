@@ -339,3 +339,17 @@ justify-content: center;
   border-radius: 20px;
 }
 
+/*Podcast*/
+.podcast{
+display: flex;
+justify-content: space-evenly;
+}
+
+.podcastlinje{
+  margin-top: 5%;
+}
+
+
+
+
+
