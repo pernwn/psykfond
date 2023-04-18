@@ -27,7 +27,6 @@ section {
   height: auto;
   padding-top: 100px;
   padding-bottom: 100px;
-  
 }
 
 h1 {
@@ -58,8 +57,8 @@ p {
 
 /*Pink pil*/
 .arrow {
-  background: #e72860;
-  /*Hvorfor ændrer den ikke farven på SVG'en??*/
+  color: #e72860;
+  /*Hvorfor ændrer den ikke farven på SVG'en fra sort til pink?? - hverken color eller fill virker*/
 }
 
 /*STYLING AF VEJRTRÆKNINGSØVELSE 4x4*/
@@ -102,6 +101,12 @@ p {
   top: 5%;
 }
 
+/*STYLING AF PÅRØRENDE AFSNIT*/
+#pårørende div{
+  width: 25%;
+  margin-left: 900px;
+}
+
 /*Claras hack section*/
 #hack_icons {
   display: flex;
@@ -134,7 +139,6 @@ p {
 
 /*Får høretelfoner til at hoppe*/
 @keyframes bounce {
-
   0%,
   100% {
     transform: translateY(0);
@@ -245,7 +249,7 @@ p {
 }
 
 /*STYLING AF LOGO OVER BANNERE OM RÅDGIVNING*/
-#logooverbannere {
+.logooverbannere {
   /*left og right auto centrer logo'et*/
   margin-left: auto;
   margin-right: auto;
@@ -253,11 +257,18 @@ p {
 }
 
 /*STYLING AF RÆK UD I DAG*/
-#rækudidag {
+.rækudidag {
   display: flex;
   justify-content: right;
   margin-right: 25%;
   margin-bottom: 100px;
+}
+
+/*STYLING AF ILLUSTRATIONER PÅ BANNERE*/
+.Chatmedosbanner #chat, .Ringtilosbanner #ring, .Ungegrupperbanner #ungegrupper{
+  width: 45%;
+  margin-left: 55px;
+  margin-top: -70px;
 }
 
 /*STYLING AF BANNERE OMKRING RÅDGIVING*/
@@ -266,9 +277,9 @@ p {
   justify-content: space-between;
 }
 
-#Chatmedosbanner,
-#Ringtilosbanner,
-#Ungegrupperbanner {
+.Chatmedosbanner,
+.Ringtilosbanner,
+.Ungegrupperbanner {
   background-color: #e72860;
   color: white;
 
@@ -293,3 +304,28 @@ p {
 .button .arrow {
   width: 5%;
 }
+
+/*Apatisk*/
+.apatiskcitat{
+  width: 12%;
+  display: flex;
+  margin-left: 30%;
+  margin-top: -7%;
+}
+
+.apatisk{
+display: flex;
+margin-left: 10%;
+margin-right: 10%;
+justify-content: center;
+
+}
+
+.apatisktekst p{
+  width: 70%;
+}
+
+.apatisk iframe{
+  border-radius: 20px;
+}
+
