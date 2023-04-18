@@ -1,6 +1,14 @@
-
+#carousel{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
 
 #carousel div{
     display: flex;
     width: 50%;
+    margin:5%;
 }
+
+
