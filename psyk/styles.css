@@ -252,6 +252,15 @@ p {
   width: 80%;
 }
 
+/*STYLING AF ANGSTANFALD VIDEO*/
+.angstanfald iframe{
+  border-radius: 20px;
+}
+
+.angstanfald h1{
+  margin-bottom: 20px;
+}
+
 /*Kender du det/skriveøvelse - slider*/
 #kender_du_det div {
   margin-left: auto;
