@@ -270,11 +270,16 @@ p {
 }
 
 /*STYLING AF ILLUSTRATIONER PÅ BANNERE*/
-.Chatmedosbanner #chat, .Ringtilosbanner #ring, .Ungegrupperbanner #ungegrupper{
-  width: 45%;
-  margin-left: 55px;
-  margin-top: -70px;
+.ikon{
+  display: flex;
+  padding-left:10%;
+
+  position:absolute;
+  bottom:85%;
+  width:60%;
+
 }
+
 
 /*STYLING AF BANNERE OMKRING RÅDGIVING*/
 #trebannere {
@@ -282,15 +287,15 @@ p {
   justify-content: space-between;
 }
 
-.Chatmedosbanner,
-.Ringtilosbanner,
-.Ungegrupperbanner {
+.banner {
+  position:relative;
   background-color: #e72860;
   color: white;
 
   margin: 10px;
   border-radius: 60px;
-  padding: 30px;
+  padding: 40px;
+  padding-top:5%;
 
   width: 25%;
 }
