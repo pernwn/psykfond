@@ -101,6 +101,13 @@ p {
   top: 5%;
 }
 
+/*STYLING AF PÅRØRENDE AFSNIT*/
+#pårørende{
+  width: 25%;
+  margin-left: 900px;
+  margin-top: 200px;
+}
+
 /*Claras hack section*/
 #hack_icons {
   display: flex;
