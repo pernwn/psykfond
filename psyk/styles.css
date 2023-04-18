@@ -53,7 +53,11 @@ p {
   top: 4.3vw;
   left: 4.7vw;
   width: 100%;
-  z-index: 1;
+  z-index: 0;
+}
+
+#carousel{
+  z-index: 9999999;
 }
 
 /*Styling så stregen er under eller over nogle elementer ––– nogle stesder virker, andre gør ikke*/

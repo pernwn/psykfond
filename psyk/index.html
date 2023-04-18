@@ -14,8 +14,7 @@
     <meta name="keywords" content="">
 
 
-    <meta name="keywords"
-    content="">
+    <meta name="keywords" content="">
 
 
     <title>Claras fortælling</title>
@@ -27,6 +26,7 @@
 
     <!--SCRIPT-->
     <script src="script.js" defer></script>
+    <script src="carousel.js" defer></script>
 
     <!--GOOGLE FONT: KANIT-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -74,12 +74,13 @@
         </nav>-->
     </header>
 
-   
+
 
     <main>
+        <div id="pinkStreg"><img src="images/pinkStreg.svg" alt=""></div>
         <!--intro-video-->
         <section id="intro_section">
-            <div id="pinkStreg"><img src="images/pinkStreg.svg" alt=""></div>
+
             <video width="100%" autoplay loop> <!--Virker af en eller anden grund ikke uden controls? -->
                 <source src="video/IntroVideo.mp4" type="video/mp4">
             </video>
@@ -95,11 +96,57 @@
         <!--karrusel-->
         <section id="carousel">
             <h1>Vores historier...</h1>
+
             <div>
-                <img id="clara" src="images/blob_clara_farver.png" alt="Clara">
-                <img class="undefined" src="images/blob1.png" alt="Mand 1">
-                <img class="undefined" src="images/blob6.png" alt="Kvinde 1">
-                <img class="undefined" src="images/blob4.png" alt="Mand 2">
+                <i class="fa-solid fa-angle-left fa-3x" id="arrow-left"></i>
+                <div id="kortKarrusel">
+                    <div class="kort">
+                        <a href="#IntroClara"><img src="images/blob_clara_farver.png" alt="Clara"></a>
+                        <h3>Clara Lassen</h3>
+                    </div>
+
+                    <div class="kort">
+                        <a href=""><img src="images/blob5.png" alt="Mand 1"></a>
+                        <h3>John Larsen</h3>
+                    </div>
+
+                    <div class="kort">
+                        <a href=""><img src="images/blob6.png" alt="Kvinde 2"></a>
+                        <h3>Maiken Tøstergaard</h3>
+                    </div>
+
+                    <div class="kort">
+                        <a href=""><img src="images/blob4.png" alt="Mand 2"></a>
+                        <h3>Emil Nguyen</h3>
+                    </div>
+                </div>
+
+                <div id="kortKarruselEkstra">
+                    <div class="kort">
+                        <img src="images/blob3.png" alt="Kvinde 3">
+                        <h3>Emily Nielsen</h3>
+                    </div>
+
+                    <div class="kort">
+                        <img src="images/blob1.png" alt="Mand 3">
+                        <h3>Joakim Andersen</h3>
+
+                    </div>
+
+                    <div class="kort">
+                        <img src="images/blob7.png" alt="Kvinde 4">
+                        <h3>Victoria Le Deux</h3>
+
+                    </div>
+
+                    <div class="kort">
+                        <img src="images/blob2.png" alt="Mand 4">
+                        <h3>Vincent Archibald</h3>
+
+                    </div>
+
+                </div>
+                <i class="fa-solid fa-angle-right fa-3x" id="arrow-right"></i>
             </div>
         </section>
 

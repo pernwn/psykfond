@@ -1,23 +1,28 @@
 #carousel{
     display: flex;
-    justify-content: space-between;
     align-items: center;
     flex-direction: column;
 }
 
-#carousel div{
+.kort{
     display: flex;
-    width: 50%;
-    margin:5%;
-}
+    align-items: center;
+    flex-direction: column;
 
-#carousel div img{
     transform:scale(1);
     transition: 0.5s ease-in-out;
 }
 
-#carousel div img:hover{
-    transform:scale(2);
+.kort:hover{
+    transform:scale(1.1);
 }
+
+#carousel div{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin:2%;
+}
+
 
 
