@@ -102,6 +102,11 @@ p {
 }
 
 /*STYLING AF PÅRØRENDE AFSNIT*/
+#pårørende iframe{
+  border-radius: 20px;
+  margin-left: 200px;
+}
+
 #pårørende div{
   width: 25%;
   margin-left: 900px;
