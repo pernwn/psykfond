@@ -53,12 +53,19 @@ p {
   top: 4.3vw;
   left: 4.7vw;
   width: 100%;
+  z-index: 1;
 }
+
+/*Styling så stregen er under eller over nogle elementer ––– nogle stesder virker, andre gør ikke*/
+/*#vejrtrækningsøvelsetekst, #introBilledeClara, .toKolonner, #tegningGif, #citat1, .apatisk, #kender_du_det, #trebannere, #fidget, #høretelefoner, #squishy, #hack{
+  z-index: 9999999;
+}*/
 
 /*Pink pil*/
 .arrow {
   color: #e72860;
   /*Hvorfor ændrer den ikke farven på SVG'en fra sort til pink?? - hverken color eller fill virker*/
+  /*Hvad er det for en pil? Mvh Vic <3*/
 }
 
 /*STYLING AF VEJRTRÆKNINGSØVELSE 4x4*/
@@ -70,6 +77,8 @@ p {
   padding: 20px;
 
   margin: 10%;
+
+
 }
 
 #vejrtrækningsøvelsetekst {
@@ -191,12 +200,14 @@ p {
 #trebannere {
   width: 80%;
   margin: auto;
+  
 }
 
 .toKolonner {
   display: flex;
   width: 80%;
   margin: auto;
+  z-index: 99999;
 }
 
 .toKolonner p {
