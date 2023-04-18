@@ -243,7 +243,7 @@ p {
 }
 
 /*STYLING AF LOGO OVER BANNERE OM RÅDGIVNING*/
-#logooverbannere {
+.logooverbannere {
   /*left og right auto centrer logo'et*/
   margin-left: auto;
   margin-right: auto;
@@ -251,11 +251,18 @@ p {
 }
 
 /*STYLING AF RÆK UD I DAG*/
-#rækudidag {
+.rækudidag {
   display: flex;
   justify-content: right;
   margin-right: 25%;
   margin-bottom: 100px;
+}
+
+/*STYLING AF ILLUSTRATIONER PÅ BANNERE*/
+.Chatmedosbanner #chat, .Ringtilosbanner #ring, .Ungegrupperbanner #ungegrupper{
+  width: 45%;
+  margin-left: 55px;
+  margin-top: -70px;
 }
 
 /*STYLING AF BANNERE OMKRING RÅDGIVING*/
@@ -264,9 +271,9 @@ p {
   justify-content: space-between;
 }
 
-#Chatmedosbanner,
-#Ringtilosbanner,
-#Ungegrupperbanner {
+.Chatmedosbanner,
+.Ringtilosbanner,
+.Ungegrupperbanner {
   background-color: #e72860;
   color: white;
 
