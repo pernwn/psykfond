@@ -345,6 +345,7 @@ p {
   display: flex;
   margin-left: 30%;
   margin-top: -7%;
+  z-index: 1;
 }
 
 .apatisk{
@@ -355,12 +356,17 @@ justify-content: center;
 
 }
 
+.apatisktekst{
+  z-index: 1;
+  background-color: #ebeae1;
+}
 .apatisktekst p{
   width: 70%;
 }
 
 .apatisk iframe{
   border-radius: 20px;
+  z-index: 1;
 }
 
 /*Fade in med citater effekt*/
@@ -399,14 +405,18 @@ justify-content: space-evenly;
   .pndetekst{
     width: 70%;
     margin-right: 20%;
+    z-index: 1;
+    margin-top: 1%;
   }
   
   .pnde iframe{
     border-radius: 20px;
     width: 70%;
     margin-right: 10%;
+    z-index: 1;
 
   }
+
 
 
 
