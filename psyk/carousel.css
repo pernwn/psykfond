@@ -1,13 +1,22 @@
-#carousel{
+.carousel{
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
+
+.carousel div{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin:2%;
+}
+
+
 .kort{
     display: flex;
     align-items: center;
-    flex-direction: column;
+    flex-direction:column;
 
     transform:scale(1);
     transition: 0.5s ease-in-out;
@@ -17,12 +26,19 @@
     transform:scale(1.1);
 }
 
-#carousel div{
-    display: flex;
-    justify-content: center;
-    width: 70%;
-    margin:2%;
+/*
+.fa-angle-left, .fa-angle-right{
+    color: #565656;
+    transition: 0.5s ease-in-out;
 }
+
+.fa-angle-left:hover, .fa-angle-right:hover{
+    color: #e72860;
+}*/
+
+
+
+
 
 
 

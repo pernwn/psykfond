@@ -26,7 +26,7 @@
 
     <!--SCRIPT-->
     <script src="script.js" defer></script>
-    <script src="carousel.js" defer></script>
+    <!--<script src="carousel.js" defer></script>-->
 
     <!--GOOGLE FONT: KANIT-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -94,60 +94,74 @@
         </section>
 
         <!--karrusel-->
-        <section id="carousel">
-            <h1>Vores historier...</h1>
+        <section class="carousel">
+            <div>
+                <h1>Vores historier...</h1>
+            </div>
 
+            <!--
+            <i class="fa-solid fa-angle-left fa-3x" id="arrow-left"></i>
+            
+            <img src="images/blob_clara_farver.png" alt="Clara" id="clara">
+            <img src="images/blob5.png" alt="Mand 1" id="mand1">
+            <img src="images/blob6.png" alt="Kvinde 2" id="kvinde2">
+            <img src="images/blob4.png" alt="Mand 2" id="mand2">
+            <i class="fa-solid fa-angle-right fa-3x" id="arrow-right"></i>
+            -->
+
+   
             <div>
                 <i class="fa-solid fa-angle-left fa-3x" id="arrow-left"></i>
-                <div id="kortKarrusel">
-                    <div class="kort">
+                <div id="fstKaru">
+                    <div class="kort" id="clara">
                         <a href="#IntroClara"><img src="images/blob_clara_farver.png" alt="Clara"></a>
                         <h3>Clara Lassen</h3>
                     </div>
 
-                    <div class="kort">
+                    <div class="kort" id="mand1">
                         <a href=""><img src="images/blob5.png" alt="Mand 1"></a>
                         <h3>John Larsen</h3>
                     </div>
 
-                    <div class="kort">
+                    <div class="kort" id="kvinde2">
                         <a href=""><img src="images/blob6.png" alt="Kvinde 2"></a>
                         <h3>Maiken Tøstergaard</h3>
                     </div>
 
-                    <div class="kort">
+                    <div class="kort" id="mand2">
                         <a href=""><img src="images/blob4.png" alt="Mand 2"></a>
                         <h3>Emil Nguyen</h3>
                     </div>
                 </div>
 
-                <div id="kortKarruselEkstra">
-                    <div class="kort">
+
+                <!--<div id="sndKaru">
+                    <div class="kort" id="kvinde3">
                         <img src="images/blob3.png" alt="Kvinde 3">
                         <h3>Emily Nielsen</h3>
                     </div>
 
-                    <div class="kort">
+                    <div class="kort" id="mand3">
                         <img src="images/blob1.png" alt="Mand 3">
                         <h3>Joakim Andersen</h3>
-
                     </div>
 
-                    <div class="kort">
+                    <div class="kort" id="kvinde4">
                         <img src="images/blob7.png" alt="Kvinde 4">
                         <h3>Victoria Le Deux</h3>
-
                     </div>
 
-                    <div class="kort">
+                    <div class="kort" id="mand4">
                         <img src="images/blob2.png" alt="Mand 4">
                         <h3>Vincent Archibald</h3>
-
                     </div>
-
-                </div>
+                </div>-->
                 <i class="fa-solid fa-angle-right fa-3x" id="arrow-right"></i>
+          
+
             </div>
+
+
         </section>
 
         <!--Introduktion til Clara-->
@@ -330,6 +344,8 @@
                 <img src="images/PodcastLinje.svg" alt="">
             </div>
         </section>
+
+        
 
         <!--"Kender du det"/skrive-opgave slider-->
         <section class="dark_back" id="kender_du_det">

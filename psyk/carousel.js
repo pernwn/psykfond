@@ -1,30 +1,71 @@
 //Variables:
-const aRight = document.getElementById("arrow-right");
-const aLeft = document.getElementById("arrow-left");
-const fstCarousel = document.getElementById("kortKarrusel");
-const sndCarousel = document.getElementById("kortKarruselEkstra");
+const aLeft = document.querySelector("#arrow-left");
+const aRight = document.querySelector("#arrow-right");
+
+const karu = document.querySelector('#container');
+const fstKaru = document.querySelector('#fstKaru');
+const sndKaru = document.querySelector('#sndKaru');
+
+/*
+const k2 = document.getElementById("kvinde2");
+const m2 = document.getElementById("mand2");*/
+
+/*
+const m3 = document.getElementById("mand3");
+const m4 = document.getElementById("mand4");
+
+const k3 = document.getElementById("kvinde3");
+const k4 = document.getElementById("kvinde4");
+
+
+const fstKaru = document.getElementById("fstKaru");
+const sndKaru = document.getElementById("sndKaru");*/
+
 
 //Array:
-const carousel = [kortKarrusel, kortKarruselEkstra];
+//const array = [fstKaru, sndKaru];
 
-carousel[0].style.display = "block";
-carousel[1].style.display = "none";
+const array = [fstKaru, sndKaru];
 
-//Knapper:
-aRight.addEventListener("click", nextSlide);
-aLeft.addEventListener("click", previousSlide);
+array[0].style.display = "block";
+array[1].style.display = "none";
 
-//Functions:
-function nextSlide(){
-    carousel[0].style.display = "none"; // Skjul den viste
-    carousel.push(carousel[0]); // Put den første ind til sidst
-    carousel.shift(); // Fjern den første og flyt alle en ned
-    carousel[0].style.display = "block"; // Vis den der nu er først
+
+
+/*array[2].style.display = "none";
+array[3].style.display = "none";
+array[4].style.display = "none";
+array[5].style.display = "none";
+array[6].style.display = "none";
+array[7].style.display = "none";*/
+
+//knapper:
+aRight.addEventListener('click', nextPic);
+aLeft.addEventListener('click', previousPic);
+
+
+//Funktioner -- SE PAPIR
+function embed(){
+    
 }
 
-function previousSlide(){
-    carousel[0].style.display = "none";
-    carousel.unshift(carousel[carousel.length-1]);
-    carousel.pop();
-    carousel[0].style.display = "block";
+function nextPic(){
+    array[0].style.display = "none"; // Skjul den viste
+    array.push(array[0]); // Put den første ind til sidst
+    array.shift(); // Fjern den første og flyt alle en ned
+    array[0].style.display = "block"; // Vis den der nu er først
 }
+
+function previousPic(){
+    array[0].style.display = "none";
+    array.unshift(array[array.length-1]);
+    array.pop(); //Fjerne sidste element i array
+    array[0].style.display = "block";
+}
+
+//DEBUG ALERT
+function myAlert(){
+    alert("debug");
+}
+
+myAlert();
