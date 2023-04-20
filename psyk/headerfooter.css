@@ -19,7 +19,7 @@ header>div {
 }
 
 header>nav {
-  /*Har lige skjult burgermenu så vi kan fokusere på andre elementer først*/
+
   display: none;
 }
 

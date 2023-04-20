@@ -5,8 +5,11 @@ const aRight = document.getElementById("arrowright");
 const kender = document.getElementById("kender");
 const stjerne = document.getElementById("stjerne");
 
-const fidget = document.getElementById("figdetspinner");
-const bobbel = document.getElementById("bobbel");
+let fidget = document.getElementById("figdetspinner");
+let bobbel = document.getElementById("bobbel");
+let button = document.getElementById("button");
+
+
 
 //Array:
 const carousel = [kender, stjerne];
@@ -38,78 +41,49 @@ function previousPic() {
 
 
 
-//slide i kender du
+//slide i "kender du"
+
 aRight.addEventListener("click", slide)
-let visible = false;
 function slide() {
-  if (visible == false) {
+  if (visible == true) {
     stjerne.style.animationName = "slideIn";
     kender.style.animationName = "slideOut";
-    visible = true;
+    visible = false;
   } else {
     kender.style.animationName = "slideOut";
     stjerne.style.animationName = "slideIn";
-    visible = false;
+    visible = true;
   }
 }
 
 aLeft.addEventListener("click", slide)
 
 function slide() {
-  if (visible == false) {
+  if (visible == true) {
     kender.style.animationName = "slideOut";
     stjerne.style.animationName = "slideIn";
-    visible = true;
-  } else {
-    stjerne.style.animationName = "slideIn";
-    kender.style.animationName = "slideOut";
     visible = false;
+  } else {
+    stjerne.style.animationName = "slideIn";
+    kender.style.animationName = "slideOut";
+    visible = true;
   }
 }
 
-//tryk på fidgetspinner 2 gange første gang for at få frem
-document.getElementById("button").addEventListener("click", showBubble);
-function showBubble(){
-    if(visible == false){
-        bobbel.style.visibility = "hidden";
-        visible = true;
-    }else{
-      bobbel.style.visibility = "visible";
-      visible = false;
-    }
-}
+//Funktion til at vise bobbel frem på fidgetspinner – tryk 2 gange første gang
+let visible = true;
 
-
-/*
-var hidden = false;
-function showBubble(){
-  if (!hidden) {
-    bobbel.style.visibility ='visible';
-   
+button.addEventListener("click", showBubble);
+function showBubble() {
+  if (visible == true) {
+    bobbel.style.visibility = "hidden";
+    visible = false;
   } else {
-    bobbel.style.visibility ='visible';
-}
-
-
-}
-
-function myAlert(){
-  alert("debug");
-}
-
-/*function bubble(){
-  if (visible==true) {
-    bobbel.style.display = "block";
-    visible=true;
-  } else {
-    fidget.style.display = "none";
-    visible=false;
+    bobbel.style.visibility = "visible";
+    visible = true;
   }
-}*/
 
-
-
-
+}
 
 
 

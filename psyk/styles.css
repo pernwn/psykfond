@@ -144,27 +144,21 @@ p {
   position: relative;
 }
 
-#fidget{
-  display: flex;
-  flex-direction: row;
-  animation: rotate 2s linear infinite;
-}
 
-
-#bobbel{
+#bobbel {
   position: absolute;
   z-index: 99999999;
-  left:25%;
+  left: 25%;
 
   visibility: hidden;
 }
 
 
-#button{
+#button {
   position: absolute;
-  width:100%;
+  width: 100%;
   cursor: pointer;
-  border:none;
+  border: none;
   background-color: transparent;
 }
 
@@ -217,6 +211,11 @@ p {
   }
 }
 
+#fidget {
+  display: flex;
+  flex-direction: row;
+  animation: rotate 2s linear infinite;
+}
 
 #høretelefoner {
   animation: bounce 0.5s linear infinite;

@@ -33,6 +33,7 @@
     opacity: 1.0;
 }
 
+/*STYLING AF PILE*/
 #arrow-left,
 #arrow-right,
 #arrowright,
@@ -57,7 +58,8 @@
     animation: slideRight 0.5s 0s 1 forwards;
 }
 
-#arrow-left:hover, #arrowleft:hover {
+#arrow-left:hover,
+#arrowleft:hover {
     animation: slideLeft 0.5s 0s 1 forwards;
 }
 
