@@ -1,11 +1,11 @@
-.carousel{
+#carousel{
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
 
-.carousel div{
+#carousel div{
     display: flex;
     justify-content: space-evenly;
     width: 80%;
@@ -17,24 +17,66 @@
     display: flex;
     align-items: center;
     flex-direction:column;
+    text-align: center;
+    background-color: #f6f5ed;
+    border-radius: 60px;
+ 
+    opacity: 0.5;
 
     transform:scale(1);
     transition: 0.5s ease-in-out;
+
 }
 
 .kort:hover{
     transform:scale(1.1);
+    opacity: 1.0;
 }
 
-/*
-.fa-angle-left, .fa-angle-right{
-    color: #565656;
+#arrow-left, #arrow-right{
+    position:relative;
+    top:120px;
+    color:#565656;
+
     transition: 0.5s ease-in-out;
 }
 
-.fa-angle-left:hover, .fa-angle-right:hover{
-    color: #e72860;
-}*/
+#arrow-left:hover, #arrow-right:hover{
+    color:#e72860;
+
+}
+
+#arrow-right:hover{
+    animation: slideright 0.5s 0s 1 forwards;
+}
+
+#arrow-left:hover{
+    animation: slideleft 0.5s 0s 1 forwards;
+}
+
+
+@keyframes slideright{
+    0%{
+        transform: translateX(0);
+    }
+
+
+    100%{
+        transform:translateX(10px);
+    }
+
+}
+
+@keyframes slideleft{
+    0%{
+        transform: translateX(0);
+    }
+
+    100%{
+        transform:translateX(-10px);
+    }
+}
+
 
 
 
