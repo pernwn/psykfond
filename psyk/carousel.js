@@ -45,26 +45,26 @@ aLeft.addEventListener('click', previousPic);
 
 
 //Funktioner -- SE PAPIR
-function embed(){
-    
+function embed() {
+
 }
 
-function nextPic(){
+function nextPic() {
     array[0].style.display = "none"; // Skjul den viste
     array.push(array[0]); // Put den første ind til sidst
     array.shift(); // Fjern den første og flyt alle en ned
     array[0].style.display = "block"; // Vis den der nu er først
 }
 
-function previousPic(){
+function previousPic() {
     array[0].style.display = "none";
-    array.unshift(array[array.length-1]);
+    array.unshift(array[array.length - 1]);
     array.pop(); //Fjerne sidste element i array
     array[0].style.display = "block";
 }
 
 //DEBUG ALERT
-function myAlert(){
+function myAlert() {
     alert("debug");
 }
 

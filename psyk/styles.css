@@ -298,26 +298,37 @@ p {
   z-index: 9;
 }
 
-#kender_du_det .fa-solid{
-  position:relative;
-  top:200px;
-  padding:5%;
+#kender_du_det .fa-solid {
+  position: relative;
+  top: 200px;
+  padding: 5%;
 }
 
-#kender, #stjerne{
-  position:relative;
+#kender,
+#stjerne {
+  position: relative;
   animation-duration: 2s;
   animation-fill-mode: forwards;
 }
 
-@keyframes slideIn{
-  from{left:-8%;}
-  to{left: 0;}
+@keyframes slideIn {
+  from {
+    left: -8%;
+  }
+
+  to {
+    left: 0;
+  }
 }
 
-@keyframes slideOut{
-  from{right:-8%;}
-  to{right:0;}
+@keyframes slideOut {
+  from {
+    right: -8%;
+  }
+
+  to {
+    right: 0;
+  }
 }
 
 /*STYLING AF LOGO OVER BANNERE OM RÅDGIVNING*/
@@ -427,17 +438,18 @@ p {
 }
 
 /*Podcast*/
-.podcast{
-display: flex;
-justify-content: space-evenly;
-text-align: center;
+.podcast {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
 }
 
-.podcastboble{
+.podcastboble {
   z-index: 1;
   width: 25%;
 }
-.podcastlinje{
+
+.podcastlinje {
   margin-top: 5%;
   width: 35%;
 }
