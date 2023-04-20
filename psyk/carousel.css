@@ -57,7 +57,7 @@
     animation: slideRight 0.5s 0s 1 forwards;
 }
 
-#arrow-left:hover #arrowleft:hover {
+#arrow-left:hover, #arrowleft:hover {
     animation: slideLeft 0.5s 0s 1 forwards;
 }
 
