@@ -56,12 +56,23 @@ p {
   z-index: 0;
 }
 
-#carousel{
+#carousel {
   z-index: 9999999;
 }
 
 /*Styling så stregen er under eller over nogle elementer ––– nogle stesder virker, andre gør ikke*/
-#vejrtrækningsøvelsetekst, #introBilledeClara, .toKolonner, #tegningGif, #citat1, .apatisk, #kender_du_det, #trebannere, #fidget, #høretelefoner, #squishy, #hack{
+#vejrtrækningsøvelsetekst,
+#introBilledeClara,
+.toKolonner,
+#tegningGif,
+#citat1,
+.apatisk,
+#kender_du_det,
+#trebannere,
+#fidget,
+#høretelefoner,
+#squishy,
+#hack {
   z-index: 9999999;
 }
 
@@ -115,12 +126,12 @@ p {
 }
 
 /*STYLING AF PÅRØRENDE AFSNIT*/
-#pårørende iframe{
+#pårørende iframe {
   border-radius: 20px;
   margin-left: 200px;
 }
 
-#pårørende div{
+#pårørende div {
   width: 25%;
   margin-left: 900px;
 }
@@ -157,6 +168,7 @@ p {
 
 /*Får høretelfoner til at hoppe*/
 @keyframes bounce {
+
   0%,
   100% {
     transform: translateY(0);
@@ -204,7 +216,7 @@ p {
 #trebannere {
   width: 80%;
   margin: auto;
-  
+
 }
 
 .toKolonner {
@@ -223,6 +235,7 @@ p {
 .toKolonner div {
   width: 50%;
 }
+
 #introBilledeClara {
   width: 120%;
   margin-left: 7vw;
@@ -257,15 +270,15 @@ p {
 }
 
 /*STYLING AF ANGSTANFALD VIDEO*/
-.angstanfald iframe{
+.angstanfald iframe {
   border-radius: 20px;
 }
 
-.angstanfald h1{
+.angstanfald h1 {
   margin-bottom: 20px;
 }
 
-/*Kender du det/skriveøvelse - slider*/
+/*Kender du det/skriveøvelse - slider
 #kender_du_det div {
   margin-left: auto;
   margin-right: auto;
@@ -275,6 +288,36 @@ p {
 #kender_du_det h1 {
   text-align: center;
   margin-bottom: 30px;
+}*/
+
+#kender_du_det {
+  display: flex;
+  flex-direction: row;
+
+  padding: 8%;
+  z-index: 9;
+}
+
+#kender_du_det .fa-solid{
+  position:relative;
+  top:200px;
+  padding:5%;
+}
+
+#kender, #stjerne{
+  position:relative;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slideIn{
+  from{left:-8%;}
+  to{left: 0;}
+}
+
+@keyframes slideOut{
+  from{right:-8%;}
+  to{right:0;}
 }
 
 /*STYLING AF LOGO OVER BANNERE OM RÅDGIVNING*/
@@ -294,13 +337,13 @@ p {
 }
 
 /*STYLING AF ILLUSTRATIONER PÅ BANNERE*/
-.ikon{
+.ikon {
   display: flex;
-  padding-left:10%;
+  padding-left: 10%;
 
-  position:absolute;
-  bottom:85%;
-  width:60%;
+  position: absolute;
+  bottom: 85%;
+  width: 60%;
 
 }
 
@@ -312,14 +355,14 @@ p {
 }
 
 .banner {
-  position:relative;
+  position: relative;
   background-color: #e72860;
   color: white;
 
   margin: 10px;
   border-radius: 60px;
   padding: 40px;
-  padding-top:5%;
+  padding-top: 5%;
 
   width: 25%;
 }
@@ -340,7 +383,7 @@ p {
 }
 
 /*Apatisk*/
-.apatiskcitat{
+.apatiskcitat {
   width: 12%;
   display: flex;
   margin-left: 30%;
@@ -348,78 +391,72 @@ p {
   z-index: 1;
 }
 
-.apatisk{
-display: flex;
-margin-left: 10%;
-margin-right: 10%;
-justify-content: center;
+.apatisk {
+  display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+  justify-content: center;
 
 }
 
-.apatisktekst{
+.apatisktekst {
   z-index: 1;
   background-color: #ebeae1;
 }
-.apatisktekst p{
+
+.apatisktekst p {
   width: 70%;
 }
 
-.apatisk iframe{
+.apatisk iframe {
   border-radius: 20px;
   z-index: 1;
 }
 
 /*Fade in med citater effekt*/
-.reveal{
+.reveal {
   position: relative;
   transform: translateY(150px);
   opacity: 0;
   transition: 1s all ease;
 }
 
-.reveal.active{
+.reveal.active {
   transform: translateY(0);
   opacity: 1;
 }
 
 /*Podcast*/
-.podcast{
-display: flex;
-justify-content: space-evenly;
+.podcast {
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.podcastlinje{
+.podcastlinje {
   margin-top: 5%;
 }
 
 
-.pnde{
+.pnde {
   display: flex;
   margin-left: 10%;
   margin-right: 10%;
   justify-content: center;
   width: 100%;
-  
-  }
-  
-  .pndetekst{
-    width: 70%;
-    margin-right: 20%;
-    z-index: 1;
-    margin-top: 1%;
-  }
-  
-  .pnde iframe{
-    border-radius: 20px;
-    width: 70%;
-    margin-right: 10%;
-    z-index: 1;
 
-  }
+}
 
+.pndetekst {
+  width: 70%;
+  margin-right: 20%;
+  z-index: 1;
+  margin-top: 1%;
+}
 
+.pnde iframe {
+  border-radius: 20px;
+  width: 70%;
+  margin-right: 10%;
+  z-index: 1;
 
-
-
-
-
+}

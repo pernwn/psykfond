@@ -73,7 +73,7 @@
 
 
     <main>
-        <div id="pinkStreg"><img src="images/pinkStreg.svg" alt=""></div>
+        <!--<div id="pinkStreg"><img src="images/pinkStreg.svg" alt=""></div>-->
         <!--intro-video-->
 
             <video playsinline autoplay muted loop width="100%"> 
@@ -118,6 +118,7 @@
                     </div>
                 </div>
 
+                <!--NOTE: Vi kunne ikke få JS til at virke med karrusel i div'er-->
 
                 <!--<div id="sndKaru">
                     <div class="kort" id="kvinde3">
@@ -336,8 +337,13 @@
 
         <!--"Kender du det"/skrive-opgave slider-->
         <section class="dark_back" id="kender_du_det">
+            <i class="fa-solid fa-caret-left fa-3x" id="arrowleft"></i>
+            <img src="images/kenderdu.png" alt="Tekst" id="kender">
+            <img src="images/stjerne.png" alt="Stjerne" id="stjerne">         
+            <i class="fa-solid fa-caret-right fa-3x" id="arrowright"></i>
 
-            <!--Tekst_slide-->
+
+            <!--Tekst_slide ––– NOTE: Vi har lavet en alternativ løsning til denne del da vi ikke havde nok tid.
             <div>
                 <h1>Kender du det..</h1>
                 <p>..når tankerne nærmest slås med hinanden for at få din opmærksomhed? Og de nærmest råber ind og <br>
@@ -358,11 +364,11 @@
                 </p>
             </div>
 
-            <!--SkriveævelseModTankemylder_slide-->
+            SkriveævelseModTankemylder_slide
             <div class="slide-container">
                 <img src="images/natur_nat.svg" alt="Illustration af naturlandskab om natten">
 
-            </div>
+            </div>-->
 
             <!--Indsæt slide-cirkel-knapper her der aktivere transistion til skriveøvelse-->
         </section>

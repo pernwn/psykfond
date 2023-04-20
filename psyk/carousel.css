@@ -33,7 +33,7 @@
     opacity: 1.0;
 }
 
-#arrow-left, #arrow-right{
+#arrow-left, #arrow-right, #arrowright, #arrowleft{
     position:relative;
     top:120px;
     color:#565656;
@@ -41,21 +41,21 @@
     transition: 0.5s ease-in-out;
 }
 
-#arrow-left:hover, #arrow-right:hover{
+#arrow-left:hover, #arrow-right:hover, #arrowright:hover, #arrowleft:hover{
     color:#e72860;
 
 }
 
-#arrow-right:hover{
-    animation: slideright 0.5s 0s 1 forwards;
+#arrow-right:hover, #arrowright:hover{
+    animation: slideRight 0.5s 0s 1 forwards;
 }
 
-#arrow-left:hover{
-    animation: slideleft 0.5s 0s 1 forwards;
+#arrow-left:hover #arrowleft:hover{
+    animation: slideLeft 0.5s 0s 1 forwards;
 }
 
 
-@keyframes slideright{
+@keyframes slideRight{
     0%{
         transform: translateX(0);
     }
@@ -67,7 +67,7 @@
 
 }
 
-@keyframes slideleft{
+@keyframes slideLeft{
     0%{
         transform: translateX(0);
     }
