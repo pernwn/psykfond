@@ -21,7 +21,7 @@ main {
   height: auto;
 }
 
-/*Hvis der ikke skal stå mere i main og section, 
+/*Hvis der ikke skal stå mere i main og section,
 så kan vi godt spare plads og skrive de to i sammen*/
 section {
   height: auto;
@@ -427,13 +427,19 @@ p {
 }
 
 /*Podcast*/
-.podcast {
-  display: flex;
-  justify-content: space-evenly;
+.podcast{
+display: flex;
+justify-content: space-evenly;
+text-align: center;
 }
 
-.podcastlinje {
+.podcastboble{
+  z-index: 1;
+  width: 25%;
+}
+.podcastlinje{
   margin-top: 5%;
+  width: 35%;
 }
 
 
