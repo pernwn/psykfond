@@ -79,10 +79,11 @@
     <main>
         <div id="pinkStreg"><img src="images/pinkStreg.svg" alt=""></div>
         <!--intro-video-->
-        <section id="intro_section">
+        <!--<section id="intro_section">
+            <video src="video/introVideo.mp4" autoplay loop controls width="100%"></video>-->
 
-            <video width="100%" autoplay loop> <!--Virker af en eller anden grund ikke uden controls? -->
-                <source src="video/IntroVideo.mp4" type="video/mp4">
+            <video playsinline autoplay muted loop width="100%"> <!--Virker af en eller anden grund ikke uden controls?-->
+                <source src="video/introVideo.mp4" type="video/mp4">
             </video>
 
             <!-- Førsøg med at sætte video ind fra youtube - fungerer ikke så godt
@@ -94,20 +95,10 @@
         </section>
 
         <!--karrusel-->
-        <section class="carousel">
+        <section id="carousel">
             <div>
                 <h1>Vores historier...</h1>
             </div>
-
-            <!--
-            <i class="fa-solid fa-angle-left fa-3x" id="arrow-left"></i>
-            
-            <img src="images/blob_clara_farver.png" alt="Clara" id="clara">
-            <img src="images/blob5.png" alt="Mand 1" id="mand1">
-            <img src="images/blob6.png" alt="Kvinde 2" id="kvinde2">
-            <img src="images/blob4.png" alt="Mand 2" id="mand2">
-            <i class="fa-solid fa-angle-right fa-3x" id="arrow-right"></i>
-            -->
 
    
             <div>
@@ -119,17 +110,17 @@
                     </div>
 
                     <div class="kort" id="mand1">
-                        <a href=""><img src="images/blob5.png" alt="Mand 1"></a>
+                        <a href="#"><img src="images/blob5.png" alt="Mand 1"></a>
                         <h3>John Larsen</h3>
                     </div>
 
                     <div class="kort" id="kvinde2">
-                        <a href=""><img src="images/blob6.png" alt="Kvinde 2"></a>
+                        <a href="#"><img src="images/blob6.png" alt="Kvinde 2"></a>
                         <h3>Maiken Tøstergaard</h3>
                     </div>
 
                     <div class="kort" id="mand2">
-                        <a href=""><img src="images/blob4.png" alt="Mand 2"></a>
+                        <a href="#"><img src="images/blob4.png" alt="Mand 2"></a>
                         <h3>Emil Nguyen</h3>
                     </div>
                 </div>
